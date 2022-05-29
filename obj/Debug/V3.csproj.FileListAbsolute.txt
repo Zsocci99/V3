@@ -1,0 +1,13 @@
+C:\Users\zsolt\source\repos\C#\V3\V3\bin\Debug\V3.exe.config
+C:\Users\zsolt\source\repos\C#\V3\V3\bin\Debug\V3.exe
+C:\Users\zsolt\source\repos\C#\V3\V3\bin\Debug\V3.pdb
+C:\Users\zsolt\source\repos\C#\V3\V3\obj\Debug\V3.csproj.AssemblyReference.cache
+C:\Users\zsolt\source\repos\C#\V3\V3\obj\Debug\V3.csproj.SuggestedBindingRedirects.cache
+C:\Users\zsolt\source\repos\C#\V3\V3\obj\Debug\V3.winMainMenu.resources
+C:\Users\zsolt\source\repos\C#\V3\V3\obj\Debug\V3.Properties.Resources.resources
+C:\Users\zsolt\source\repos\C#\V3\V3\obj\Debug\V3.csproj.GenerateResource.cache
+C:\Users\zsolt\source\repos\C#\V3\V3\obj\Debug\V3.csproj.CoreCompileInputs.cache
+C:\Users\zsolt\source\repos\C#\V3\V3\obj\Debug\V3.exe
+C:\Users\zsolt\source\repos\C#\V3\V3\obj\Debug\V3.pdb
+C:\Users\zsolt\source\repos\C#\V3\V3\obj\Debug\V3.WinNewGame.resources
+C:\Users\zsolt\source\repos\C#\V3\V3\obj\Debug\V3.WinTutorial.resources

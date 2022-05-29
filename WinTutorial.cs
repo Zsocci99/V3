@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace V3
 {
-    public partial class Form1 : Form
+    public partial class WinTutorial : Form
     {
-        public Form1()
+        public WinTutorial()
         {
             InitializeComponent();
+        }
+
+        private void WinTutorial_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Environment.Exit(0);
         }
     }
 }
