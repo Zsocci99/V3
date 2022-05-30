@@ -33,12 +33,12 @@ namespace V3
 
         private void butExit_Click(object sender, EventArgs e)
         {
-            Environment.Exit(0);
+            WinMainMenu_FormClosing(sender, (FormClosingEventArgs)e);
         }
 
         private void WinMainMenu_FormClosing(object sender, FormClosingEventArgs e)
         {
-            butExit_Click(sender,e);
+            Environment.Exit(0);
         }
     }
 }
