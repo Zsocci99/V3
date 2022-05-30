@@ -74,6 +74,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "WinMainMenu";
             this.Text = "Főmenü";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.WinMainMenu_FormClosing);
             this.ResumeLayout(false);
 
         }

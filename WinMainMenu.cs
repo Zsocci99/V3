@@ -35,5 +35,10 @@ namespace V3
         {
             Environment.Exit(0);
         }
+
+        private void WinMainMenu_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            butExit_Click(sender,e);
+        }
     }
 }
