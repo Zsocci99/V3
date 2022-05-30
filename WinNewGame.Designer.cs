@@ -28,103 +28,108 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.labPlayer1 = new System.Windows.Forms.Label();
+            this.labPlayer2 = new System.Windows.Forms.Label();
+            this.labPlayer3 = new System.Windows.Forms.Label();
+            this.labPlayer4 = new System.Windows.Forms.Label();
+            this.labPlayer5 = new System.Windows.Forms.Label();
+            this.teBoPlayerName1 = new System.Windows.Forms.TextBox();
+            this.teBoPlayerName2 = new System.Windows.Forms.TextBox();
+            this.teBoPlayerName3 = new System.Windows.Forms.TextBox();
+            this.teBoPlayerName4 = new System.Windows.Forms.TextBox();
+            this.teBoPlayerName5 = new System.Windows.Forms.TextBox();
             this.butBack = new System.Windows.Forms.Button();
             this.butGameStart = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // labPlayer1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Játékos 1:";
+            this.labPlayer1.AutoSize = true;
+            this.labPlayer1.Location = new System.Drawing.Point(12, 12);
+            this.labPlayer1.Name = "labPlayer1";
+            this.labPlayer1.Size = new System.Drawing.Size(56, 13);
+            this.labPlayer1.TabIndex = 0;
+            this.labPlayer1.Text = "Játékos 1:";
             // 
-            // label2
+            // labPlayer2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 38);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Játékos 2:";
+            this.labPlayer2.AutoSize = true;
+            this.labPlayer2.Location = new System.Drawing.Point(12, 38);
+            this.labPlayer2.Name = "labPlayer2";
+            this.labPlayer2.Size = new System.Drawing.Size(56, 13);
+            this.labPlayer2.TabIndex = 1;
+            this.labPlayer2.Text = "Játékos 2:";
             // 
-            // label3
+            // labPlayer3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 64);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(56, 13);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Játékos 3:";
+            this.labPlayer3.AutoSize = true;
+            this.labPlayer3.Location = new System.Drawing.Point(12, 64);
+            this.labPlayer3.Name = "labPlayer3";
+            this.labPlayer3.Size = new System.Drawing.Size(56, 13);
+            this.labPlayer3.TabIndex = 2;
+            this.labPlayer3.Text = "Játékos 3:";
             // 
-            // label4
+            // labPlayer4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 90);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(56, 13);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Játékos 4:";
+            this.labPlayer4.AutoSize = true;
+            this.labPlayer4.Location = new System.Drawing.Point(12, 90);
+            this.labPlayer4.Name = "labPlayer4";
+            this.labPlayer4.Size = new System.Drawing.Size(56, 13);
+            this.labPlayer4.TabIndex = 3;
+            this.labPlayer4.Text = "Játékos 4:";
             // 
-            // label5
+            // labPlayer5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 116);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(56, 13);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Játékos 5:";
+            this.labPlayer5.AutoSize = true;
+            this.labPlayer5.Location = new System.Drawing.Point(12, 116);
+            this.labPlayer5.Name = "labPlayer5";
+            this.labPlayer5.Size = new System.Drawing.Size(56, 13);
+            this.labPlayer5.TabIndex = 4;
+            this.labPlayer5.Text = "Játékos 5:";
             // 
-            // textBox1
+            // teBoPlayerName1
             // 
-            this.textBox1.Location = new System.Drawing.Point(84, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 5;
+            this.teBoPlayerName1.Location = new System.Drawing.Point(84, 12);
+            this.teBoPlayerName1.Name = "teBoPlayerName1";
+            this.teBoPlayerName1.Size = new System.Drawing.Size(100, 20);
+            this.teBoPlayerName1.TabIndex = 5;
+            this.teBoPlayerName1.TextChanged += new System.EventHandler(this.teBoPlayerName1_TextChanged);
             // 
-            // textBox2
+            // teBoPlayerName2
             // 
-            this.textBox2.Location = new System.Drawing.Point(84, 38);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 6;
+            this.teBoPlayerName2.Location = new System.Drawing.Point(84, 38);
+            this.teBoPlayerName2.Name = "teBoPlayerName2";
+            this.teBoPlayerName2.Size = new System.Drawing.Size(100, 20);
+            this.teBoPlayerName2.TabIndex = 6;
+            this.teBoPlayerName2.TextChanged += new System.EventHandler(this.teBoPlayerName2_TextChanged);
             // 
-            // textBox3
+            // teBoPlayerName3
             // 
-            this.textBox3.Location = new System.Drawing.Point(84, 64);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 7;
+            this.teBoPlayerName3.Location = new System.Drawing.Point(84, 64);
+            this.teBoPlayerName3.Name = "teBoPlayerName3";
+            this.teBoPlayerName3.Size = new System.Drawing.Size(100, 20);
+            this.teBoPlayerName3.TabIndex = 7;
+            this.teBoPlayerName3.TextChanged += new System.EventHandler(this.teBoPlayerName3_TextChanged);
             // 
-            // textBox4
+            // teBoPlayerName4
             // 
-            this.textBox4.Location = new System.Drawing.Point(84, 90);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 8;
+            this.teBoPlayerName4.Location = new System.Drawing.Point(84, 90);
+            this.teBoPlayerName4.Name = "teBoPlayerName4";
+            this.teBoPlayerName4.Size = new System.Drawing.Size(100, 20);
+            this.teBoPlayerName4.TabIndex = 8;
+            this.teBoPlayerName4.TextChanged += new System.EventHandler(this.teBoPlayerName4_TextChanged);
             // 
-            // textBox5
+            // teBoPlayerName5
             // 
-            this.textBox5.Location = new System.Drawing.Point(84, 116);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 9;
+            this.teBoPlayerName5.Location = new System.Drawing.Point(84, 116);
+            this.teBoPlayerName5.Name = "teBoPlayerName5";
+            this.teBoPlayerName5.Size = new System.Drawing.Size(100, 20);
+            this.teBoPlayerName5.TabIndex = 9;
+            this.teBoPlayerName5.TextChanged += new System.EventHandler(this.teBoPlayerName5_TextChanged);
             // 
             // butBack
             // 
-            this.butBack.Location = new System.Drawing.Point(109, 142);
+            this.butBack.Location = new System.Drawing.Point(109, 38);
             this.butBack.Name = "butBack";
             this.butBack.Size = new System.Drawing.Size(75, 23);
             this.butBack.TabIndex = 10;
@@ -134,7 +139,7 @@
             // 
             // butGameStart
             // 
-            this.butGameStart.Location = new System.Drawing.Point(15, 142);
+            this.butGameStart.Location = new System.Drawing.Point(12, 38);
             this.butGameStart.Name = "butGameStart";
             this.butGameStart.Size = new System.Drawing.Size(88, 23);
             this.butGameStart.TabIndex = 11;
@@ -149,16 +154,16 @@
             this.ClientSize = new System.Drawing.Size(207, 180);
             this.Controls.Add(this.butGameStart);
             this.Controls.Add(this.butBack);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.teBoPlayerName5);
+            this.Controls.Add(this.teBoPlayerName4);
+            this.Controls.Add(this.teBoPlayerName3);
+            this.Controls.Add(this.teBoPlayerName2);
+            this.Controls.Add(this.teBoPlayerName1);
+            this.Controls.Add(this.labPlayer5);
+            this.Controls.Add(this.labPlayer4);
+            this.Controls.Add(this.labPlayer3);
+            this.Controls.Add(this.labPlayer2);
+            this.Controls.Add(this.labPlayer1);
             this.Name = "WinNewGame";
             this.Text = "WinNewGame";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.WinNewGame_FormClosing);
@@ -169,16 +174,16 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label labPlayer1;
+        private System.Windows.Forms.Label labPlayer2;
+        private System.Windows.Forms.Label labPlayer3;
+        private System.Windows.Forms.Label labPlayer4;
+        private System.Windows.Forms.Label labPlayer5;
+        private System.Windows.Forms.TextBox teBoPlayerName1;
+        private System.Windows.Forms.TextBox teBoPlayerName2;
+        private System.Windows.Forms.TextBox teBoPlayerName3;
+        private System.Windows.Forms.TextBox teBoPlayerName4;
+        private System.Windows.Forms.TextBox teBoPlayerName5;
         private System.Windows.Forms.Button butBack;
         private System.Windows.Forms.Button butGameStart;
     }
