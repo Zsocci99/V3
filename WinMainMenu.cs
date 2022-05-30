@@ -31,11 +31,13 @@ namespace V3
             winTutorial.Show();
         }
 
+        //A kilépés gomb a FormClosingot hívja meg hogy csak egy helyen legyen a bezárás
         private void butExit_Click(object sender, EventArgs e)
         {
             WinMainMenu_FormClosing(sender, (FormClosingEventArgs)e);
         }
 
+        //Environment.Exit-tel zárjuk be az alkalmazást mert ez a hide-olt ablakokat is bezárja
         private void WinMainMenu_FormClosing(object sender, FormClosingEventArgs e)
         {
             Environment.Exit(0);
