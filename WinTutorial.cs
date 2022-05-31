@@ -19,7 +19,7 @@ namespace V3
 
         private void WinTutorial_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Environment.Exit(0);
+            Hide();
         }
     }
 }
