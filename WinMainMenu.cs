@@ -33,7 +33,7 @@ namespace V3
         //A kilépés gomb a FormClosingot hívja meg hogy csak egy helyen legyen a bezárás
         private void butExit_Click(object sender, EventArgs e)
         {
-            WinMainMenu_FormClosing(sender, (FormClosingEventArgs)e);
+            Environment.Exit(0);
         }
 
         //Environment.Exit-tel zárjuk be az alkalmazást mert ez a hide-olt ablakokat is bezárja
