@@ -27,7 +27,6 @@ namespace V3
         private void butTotirial_Click(object sender, EventArgs e)
         {
             WinTutorial winTutorial = new WinTutorial();
-            this.Hide();
             winTutorial.Show();
         }
 
