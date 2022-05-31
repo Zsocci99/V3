@@ -27,11 +27,17 @@ namespace V3
         private void butTotirial_Click(object sender, EventArgs e)
         {
             WinTutorial winTutorial = new WinTutorial();
-            this.Hide();
             winTutorial.Show();
         }
 
+        //A kilépés gomb a FormClosingot hívja meg hogy csak egy helyen legyen a bezárás
         private void butExit_Click(object sender, EventArgs e)
+        {
+            Environment.Exit(0);
+        }
+
+        //Environment.Exit-tel zárjuk be az alkalmazást mert ez a hide-olt ablakokat is bezárja
+        private void WinMainMenu_FormClosing(object sender, FormClosingEventArgs e)
         {
             Environment.Exit(0);
         }

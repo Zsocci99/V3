@@ -1,5 +1,6 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
-
-/bin/Debug/Tutorial.png
+bin/Debug/V3.exe
+bin/Debug/V3.pdb
+obj/Debug/V3.csproj.GenerateResource.cache
+obj/Debug/V3.csproj.GenerateResource.cache
+obj/Debug/V3.exe
+obj/Debug/V3.pdb
